@@ -1,0 +1,21 @@
+/* Template 1 Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    width: 75%;
+}
+
+.photo {
+    width: 20%;
+}
+
+.photo img {
+    max-width: 100%;
+}
