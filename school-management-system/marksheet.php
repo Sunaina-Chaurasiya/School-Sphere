@@ -183,8 +183,8 @@
             <input type="number" name="english" required><br>
             <label>Hindi:</label><br>
             <input type="number" name="hindi" required><br>
-            <label>Grade:</label><br>
-            <input type="text" name="grade" required><br><br>
+            <label>Percentage:</label><br>
+            <input type="text" name="percent" required><br><br>
             <input type="submit" value="Add Marks">
         </form>
     </div>
@@ -200,10 +200,10 @@
         $social_science = $_POST['social_science'];
         $english = $_POST['english'];
         $hindi = $_POST['hindi'];
-        $grade = $_POST['grade'];
+        $percent = $_POST['percent'];
 
         // Insert the marks into the database
-        $sql = "INSERT INTO marks (roll_no, maths, science, social_science, english, hindi, grade) VALUES ('$roll_no', '$maths','$science', '$social_science', '$english', '$hindi', '$grade')";
+        $sql = "INSERT INTO marks (roll_no, maths, science, social_science, english, hindi, percent) VALUES ('$roll_no', '$maths','$science', '$social_science', '$english', '$hindi', '$percent')";
 
         if ($conn->query($sql) === TRUE) {
             echo "<p>New marks added successfully</p>";
