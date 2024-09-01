@@ -518,7 +518,7 @@
             printWindow.document.write('<p>Social Science: ' + socialScience + '</p>');
             printWindow.document.write('<p>English: ' + english + '</p>');
             printWindow.document.write('<p>Hindi: ' + hindi + '</p>');
-            printWindow.document.write('<p>percent: '  + '</p>');
+            printWindow.document.write('<p>'  + percent + '</p>');
             printWindow.document.write('</div>');
             printWindow.document.write('</div>');
             printWindow.document.write('</body></html>');
